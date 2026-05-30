@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Love Story</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="love-story" aria-live="polite">
+      <section class="hero scene is-active" id="gate" aria-label="Anniversary entrance">
+        <canvas id="heartCanvas" aria-hidden="true"></canvas>
+        <div class="ambient-glow glow-one"></div>
+        <div class="ambient-glow glow-two"></div>
+
+        <div class="gate-panel">
+          <form class="anniversary-form" id="anniversaryForm" novalidate>
+            <label for="anniversaryDate">แฟนกันครั้งแรก:</label>
+            <div class="date-row">
+              <input
+                id="anniversaryDate"
+                name="anniversaryDate"
+                type="text"
+                inputmode="numeric"
+                autocomplete="off"
+                placeholder="DD/MM/YY"
+                maxlength="8"
+                required
+              />
+              <button type="submit">Enter</button>
+            </div>
+            <p class="access-message" id="accessMessage" role="status"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="gallery scene" id="gallery" aria-label="Photo gallery">
+        <div class="gallery-bg" aria-hidden="true"></div>
+        <div class="gallery-copy">
+          <p class="eyebrow">Six months of us</p>
+          <h2 id="galleryTitle">The first spark</h2>
+          <p id="galleryCaption">
+            The soft beginning of a journey that kept finding new reasons to glow.
+          </p>
+        </div>
+
+        <div class="photo-stage" aria-label="Gallery with 8 photo slots">
+          <div class="photo-card" id="photoCard">
+            <div class="photo-placeholder" id="photoPlaceholder">
+              <span class="slot-number" id="slotNumber">01</span>
+              <span class="slot-label">Memory</span>
+            </div>
+          </div>
+          <div class="progress-dots" id="progressDots" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section class="finale scene" id="finale" aria-label="Anniversary message">
+        <div class="finale-hearts" id="finaleHearts" aria-hidden="true"></div>
+        <div class="final-message" id="finalMessage">
+          <p>Happy 6-Month Anniversary ❤️</p>
+        </div>
+      </section>
+    </main>
+
+    <video
+      class="music-player"
+      id="backgroundMusic"
+      preload="auto"
+      playsinline
+      src="media/proud-fellow-fellow.mp4"
+      aria-hidden="true"
+    ></video>
+
+    <script src="script.js"></script>
+  </body>
+</html>
