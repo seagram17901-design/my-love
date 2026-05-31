@@ -39,8 +39,8 @@ const PHOTO_SLOTS = [
     gradient: "linear-gradient(135deg, #253d64, #ff7f9f)",
   },
   {
-    title: "บ้านเธอครั้งแรก",
-    caption: "เค้าไปบ้านเธอได้ด้วยได้ที่มัดผมเธอที่หวงมากๆด้วยย",
+    title: "ได้ไปบ้านเธอด้วย",
+    caption: "เค้าไปบ้านเธอได้ด้วยเค้าดีใจมากกก",
     image: "/p6.jpeg",
     gradient: "linear-gradient(135deg, #5b1835, #f6dba8)",
   },
