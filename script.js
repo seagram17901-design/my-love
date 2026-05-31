@@ -45,10 +45,34 @@ const PHOTO_SLOTS = [
     gradient: "linear-gradient(135deg, #5b1835, #f6dba8)",
   },
   {
+    title: "อยากไปอีกก",
+    caption: "ได้ที่มัดผมเธอที่หวงมากๆด้วยย",
+    image: "/p10.jpeg",
+    gradient: "linear-gradient(135deg, #a18cd1, #fbc2eb)",
+  },
+  {
     title: "ถ่ายรูปตู้",
     caption: "คราวนี้มีตัวอย่างให้ดูด้วยยเป็นสเต็ปเวอร์",
     image: "/p7.jpeg",
     gradient: "linear-gradient(135deg, #1f214d, #f7749c)",
+  },
+  {
+    title: "เค้าก็รู้สึก",
+    caption: "อยู่ด้วยกันนานมากๆเค้าชอบเหมือนกัน",
+    image: "/p11.jpeg",
+    gradient: "linear-gradient(135deg, #ff758c, #ff7eb3)",
+  },
+  {
+    title: "เค้างอแง",
+    caption: "เค้างอแงไปหน่อยแต่ที่รักทำให้ด้วยน่ารักจัง",
+    image: "/p12.jpeg",
+    gradient: "linear-gradient(135deg, #ff9966, #ff5e62)",
+  },
+  {
+    title: "Noๆ",
+    caption: "เธอแพ้หมาไม่เลี้ยงเนอะๆ",
+    image: "/p9.jpeg",
+    gradient: "linear-gradient(135deg, #ff9a9e, #fad0c4)",
   },
   {
     title: "จบแล้ว",
