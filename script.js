@@ -58,7 +58,7 @@ const PHOTO_SLOTS = [
   },
   {
     title: "เค้าก็รู้สึก",
-    caption: "อยู่ด้วยกันนานมากๆเค้าชอบเหมือนกัน",
+    caption: "อยู่ด้วยกันนานมากๆเค้าชอบเหมือนกันนน",
     image: "/p11.jpeg",
     gradient: "linear-gradient(135deg, #ff758c, #ff7eb3)",
   },
