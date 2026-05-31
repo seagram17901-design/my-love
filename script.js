@@ -3,7 +3,7 @@ const PHOTO_SLOT_COUNT = 8;
 const GALLERY_INTERVAL = 5000;
 const MUSIC_START_SECONDS = 34;
 const MUSIC_VOLUME = 0.72;
-const MUSIC_FADE_DURATION = 4600;
+const MUSIC_FADE_DURATION = 5000;
 const MUSIC_FADE_STEPS = 46;
 
 // Replace null with your image path for each slot, for example: "photos/photo-01.jpg".
